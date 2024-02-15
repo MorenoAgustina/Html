@@ -3,24 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="reset.css">
   <title>Mi Primer Sitio Web</title>
 </head>
 <body>
 <header>
-    <h1>Sublimates Family</h1>
-  <span>SUBLIMADOS</span>
-  <span>PERSONALIZADO</span>
+    <div id="titulos">
+  <h1 id="titulo-principal">Sublimates Family</h1>
+  <h2 id="titulo-secundario">SUBLIMADOS PRODUCTOS PERSONALIZADOS</h2>
+  </div>
   <hr />
 
 </header>
    
 <main>
-<img src="Logo sf.jpg">
-    
+<div>
+  <img src="Logo sf.jpg" id="logo">
+</div>    
     <section>    
         <article>
-            <h2>¿Quienes somos?</h2>
-            <div>
+            <h3 id="preguntas">¿Quienes somos?</h3>
+            <div class="parrafos">
                 <p>Somos Agustina, Lucas y Alejandra. Una pequeña familia que se dedica a hacer productos
                 sublimados y personalizados, encontrando la mejor manera para que tengan sus pedidos
                 en tiempo y forma. 
@@ -34,7 +38,8 @@
         </article>
        
         <article>
-            <h3>¿Que productos realizamos?</h3>
+            <h3 id="preguntas">¿Que productos realizamos?</h3>
+            <div class="parrafos">
             <p>¡Podemos realizar un monton de productos en nuestro emprendimiento!
               Nos destacamos en los siguientes
             </p>
@@ -46,12 +51,32 @@
               <li>Bodys para bebes</li>
               <li>Chapitas identificatorias para tu mascota</li>
             </ul>
+            </div>
+            
+            
+            <div id="contenedor-tarjetas">
+              
+            <div class="contenedor-fotos"> 
+            <h5 id="preguntas">TAZAS</h5>
+            <img src="tazas.jpg" class="fotos"> 
+            </div>
+            <div class="contenedor-fotos">
+              <h5 id="preguntas">REMERAS UNISEX</h5>
+            <img src="remera.jpg" class="fotos">
+            </div>
+            <div class="contenedor-fotos">
+              <h5 id="preguntas">BODYS PARA BEBÉS</h5>
+              <img src="body.jpg" class="fotos">
+            </div>
+            
+          </div>
             <hr>
+        
         </article>
 
         <article>
-            <h4>¿Como realizar pedidos?</h4>
-            <div>
+            <h3 id="preguntas">¿Como realizar pedidos?</h3>
+            <div class="parrafos">
                 <p>Nos van a estar dejando sus datos para que podamos contactarlos por abajo
                 y nosotros les vamos a dejar las cosas que nos tienen que especificar.
                 </p>

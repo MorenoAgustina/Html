@@ -1,0 +1,75 @@
+#titulo-principal {
+    font-size: 7em;
+    font-style: oblique;
+    background-color: #e6d4cb;
+    width: 60vw;
+    margin: auto;
+
+}
+#titulo-secundario{
+    font-size: 1.5em;
+    font-style: normal;
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#logo {
+    margin-bottom: 2em;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.fotos {
+    width: 300px
+
+}
+
+.contenedor-fotos {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    transition: 1s;
+}
+
+#contenedor-tarjetas {
+    width: 85em;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.parrafos {
+    margin-left: 1.5em;
+}
+
+.contenedor-fotos:hover {
+    background-color: #caa69a;
+}
+
+#preguntas {
+    font-size: 1.2em;
+    margin-left: 1.5em;
+}
+
+span {
+    margin-right: auto;
+}
+
+body {
+    background-color: #e6d4cb;
+}
+
